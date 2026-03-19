@@ -1,3 +1,7 @@
 {
-	"python-envs.defaultEnvManager": "ms-python.python:system"
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "terminal.integrated.env.windows": {
+        "VIRTUAL_ENV": "${workspaceFolder}\\.venv",
+        "PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}"
+    }
 }
